@@ -207,6 +207,7 @@ $("#productListBody").on("click",".buyBtn", async function(event){
   
   console.log("Just Clicked The Buy Button")
   event.preventDefault();
+  $("#loader").hide()
 });
 
 // https://tatyanaseverydayfood.com/wp-content/uploads/2018/07/Summer-Sangria-Cake-4.jpg
